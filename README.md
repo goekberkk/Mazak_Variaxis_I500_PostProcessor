@@ -4,7 +4,7 @@ Work-in-progress Siemens NX CAM postprocessor project for Mazak Variaxis 500 / M
 
 This project is focused on developing and validating a custom 5-axis postprocessor for Siemens NX CAM. The goal is to generate safe, predictable, and Mazak-compatible NC output for 3-axis milling, indexed 3+2 machining, and simultaneous 5-axis machining.
 
-> **Status:** This project is not finished and is not production-ready.  
+> **Status:** This project currently does every operation I did correctly, including 5-axis simultaneous motion; however, I come across errors in some operations' approach. 
 > Generated NC code must be verified carefully before any real machine use.
 
 ---
