@@ -1,4 +1,4 @@
-# INCOMPLETE Mazak Variaxis I- 500 NX Postprocessor
+# INCOMPLETE Mazak Variaxis I-500 Metric NX Postprocessor
 
 Work-in-progress Siemens NX CAM postprocessor project for Mazak Variaxis 500 / MAZATROL Matrix EIA/ISO output.
 
