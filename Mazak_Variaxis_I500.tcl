@@ -5886,7 +5886,13 @@ proc PB_CMD_program_header { } {
   if {[info exists mom_part_name]} {
     set part_name [string toupper $mom_part_name]
   }
-
+  MOM_output_literal ["(********************************************************************)"]
+  MOM_output_literal ["(*     Before using the generated output of this post processor,    *)"]
+  MOM_output_literal ["(*       you have to make sure it fits your machine and setup.      *)"]
+  MOM_output_literal ["(*  The author of this post processor is not liable for any damages *)"]
+  MOM_output_literal ["(*          or harm resulting of insufficient or incorrect          *)"]
+  MOM_output_literal ["(* validation or customization of this post processor or its output.*)"]
+  MOM_output_literal ["(********************************************************************)"]
   MOM_output_literal [format "( %-16s: %-40s)" "DATE TIME" $date_time]
   MOM_output_literal [format "( %-16s: %-40s)" "NX PART NAME" $part_name]
   MOM_output_literal [format "( %-16s: %-40s)" "PROGRAM NUMBER" $pgm_name]
